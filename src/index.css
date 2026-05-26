@@ -14,6 +14,7 @@ background-color: aqua;
 display: flex;
 flex-direction: column;
 align-items: center;
+justify-content: center;
 }
 
 header .headerTopo{
@@ -68,3 +69,49 @@ footer .credenciais h1{
   font-size: 20px;
 
 }
+
+.disciplinas{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: aquamarine;
+  border: 1px sold rgb(37, 92, 74) ;
+  border-radius: 5px;
+
+}
+.disciplinas .headerDisciplinas{
+  height: 90px;
+
+}
+
+.disciplina .headerDisciplinas h1{
+  width: 100%;
+  margin-left: 40px;
+  font-size: 2em;
+  text-align: left;
+
+}
+
+.disciplina .contentDisciplinas{
+  width: 100%;
+  
+
+}
+
+.disciplina .contentDisciplinas article{
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.disciplina .contentDisciplinas article img{
+
+}
+
+.disciplina .contentDisciplinas article h2{
+
+}
+
