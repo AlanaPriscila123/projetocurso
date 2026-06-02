@@ -1,10 +1,10 @@
 function Error () {
 
     return(
-        <H1>Rota não  existe</H1>
+        <h1>Rota não  existe</h1>
     )
     
     }
-    export default Error () 
+    export default Error
 
         

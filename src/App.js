@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Error from "./componentes/Error";
 import Equipe from "./Equipe";
-import DisciplinasCurricular from "./DisciplinasCurricular";
+import DisciplinasCurriculares from "./componentes/DisciplinasCurriculares";
 import DisciplinasTecnicas from "./componentes/ListaDisciplinaTecnica";
 import SobreCurso from "./componentes/SobreCurso";
 import ListaDisciplinaCurricular from "./ListaDisciplinaCurricular";
@@ -17,7 +17,7 @@ function App() {
     <>
     <Header />
     <Routes >
-    <Route path="*" element={<Erro />}/>
+    <Route path="*" element={<Error />}/>
     <Route path="/" element={<Main />}/>
     <Route path="/SobreCurso" element={<SobreCurso />} />
     <Route path="/disciplinasTecnicas" element={<DisciplinasTecnicas/>}/>
